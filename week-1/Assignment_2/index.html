@@ -1,119 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-<style>
-    /* https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
-    /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
-
-
-    
-      @media screen and (max-width: 800px) and (min-width: 500px){
-    .topnav a {
-        display: none;
-    }
-    .topnav b {
-
-flex-direction: column ;
-flex-wrap: nowrap;
-justify-content: center;
-float: right;
-border-bottom: 4px solid white;
-width: 70px;
-margin: 1px 0px 10px 1px;
-
-
-display: inline;
-
-}
+    <style>
+        /* https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
+        /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 
 
 
+        @media screen and (max-width: 800px) and (min-width: 500px) {
+            .topnav a {
+                display: none;
+            }
+
+            .topnav b {
+
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                float: right;
+                border-bottom: 4px solid white;
+                width: 70px;
+                margin: 1px 0px 10px 1px;
 
 
-  }
+                display: inline;
 
-  @media screen and  (max-width: 500px){
-
-    .topnav a {
-        display: none;
-    }
-    .topnav b {
-
-flex-direction: column ;
-flex-wrap: nowrap;
-justify-content: center;
-float: right;
-border-bottom: 4px solid white;
-width: 70px;
-margin: 1px 0px 10px 1px;
-
-
-display: inline;
-
-}
-    .box {
-        flex-direction: column;
-    }
+            }
 
 
 
 
 
-  }
+        }
+
+        @media screen and (max-width: 500px) {
+
+            .topnav a {
+                display: none;
+            }
+
+            .topnav b {
+
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                float: right;
+                border-bottom: 4px solid white;
+                width: 70px;
+                margin: 1px 0px 10px 1px;
+
+
+                display: inline;
+
+            }
+
+            .box {
+                flex-direction: column;
+            }
 
 
 
-</style>
+
+
+        }
+    </style>
 </head>
+
 <body>
     <div class="topnav" id="miniSize">
-    <span >Welcome to My page</span>
+        <span>Welcome to My page</span>
         <a id="home" class="active" href="#home">Home</a>
         <a id="news" href="#news">News</a>
         <a id="contact" href="#contact">Contact</a>
         <a id="about" href="#about">About</a>
-        <div id="demo" onclick="myFunction()" >
-        <b  ></b><br>
-        <b ></b><br>
-        <b ></b>
+        <div id="demo" onclick="myFunction()">
+            <b></b><br>
+            <b></b><br>
+            <b></b>
+        </div>
     </div>
-      </div>
-      <div class="flex-container">
+    <div class="flex-container">
         <div class="welcomeMsg">Welcome Message!!</div>
         <div class="sectionTitle">Section Title</div>
-        
+
     </div>
     <div class="box" id="box">
-        <div class="items" >Content Box 1</div>
-        <div class="items" >Content Box 2</div>
+        <div class="items">Content Box 1</div>
+        <div class="items">Content Box 2</div>
     </div>
     <div class="box" id="box">
-        <div class="items" >Content Box 3</div>
-        <div class="items" >Content Box 4</div>
+        <div class="items">Content Box 3</div>
+        <div class="items">Content Box 4</div>
     </div>
     <div class="btn">
-  <button class="btn_action">Call to action</button>
+        <button class="btn_action">Call to action</button>
 
 
-      </div>
+    </div>
 </body>
 
 <script>
     function myFunction() {
-    //   document.getElementById("demo").style.display = "none";
-      document.getElementById("home").style.display = "inline";
-      document.getElementById("news").style.display = "inline";
-      document.getElementById("contact").style.display = "inline";
-      document.getElementById("about").style.display = "inline";
-      document.getElementById("miniSize").style.display = "flex";
-      document.getElementById("miniSize").style.flexDirection = "column";
+        //   document.getElementById("demo").style.display = "none";
+        document.getElementById("home").style.display = "inline";
+        document.getElementById("news").style.display = "inline";
+        document.getElementById("contact").style.display = "inline";
+        document.getElementById("about").style.display = "inline";
+        document.getElementById("miniSize").style.display = "flex";
+        document.getElementById("miniSize").style.flexDirection = "column";
 
 
     }
-    </script>
+</script>
+
 </html>
