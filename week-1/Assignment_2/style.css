@@ -91,13 +91,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1200px;
     
     
     /* background-color: #FDF7C3; */
 
     /* padding: 10px;
     border: 100px; */
-    /* margin: 100px 100px 100px 100px; */
+    margin: 0 auto;
     justify-content: center;
 }
 
