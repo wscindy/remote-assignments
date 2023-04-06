@@ -2,7 +2,7 @@
 function max(numbers) {
     // your code here
 
-    var theAnswer = numbers[0]
+    let theAnswer = numbers[0]
 
     for (let index = 1; index < numbers.length; index++) {
         if (theAnswer < numbers[index]) {

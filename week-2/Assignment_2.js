@@ -1,12 +1,12 @@
 function calculate(args) {
     // your code here
-    var output = []
+    let output = []
 
 
 
-    num1 = Object.values(args)[0]
-    num2 = Object.values(args)[1]
-    operators = Object.values(args)[2]
+    const num1 = args.n1
+    const num2 = args.n2
+    const operators = args.op
 
 
 
