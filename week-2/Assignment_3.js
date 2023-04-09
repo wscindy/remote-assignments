@@ -1,25 +1,23 @@
 function calculate(data) {
     // your code here
-    var finalPrice = []
-    var eachPrice = []
+    let eachPrice = []
 
     const { discount, products } = data;
 
     for (let index = 0; index < products.length; index++) {
 
-        var itemPrices = products[index].price * discount
+        let itemPrices = products[index].price * (1 - discount)
         eachPrice.push(itemPrices)
 
     }
 
-    let sum = 0;
-    for (let n of eachPrice) {
-        sum += n;
-    }
-    finalPrice = sum;
 
 
-    return finalPrice
+    let f = eachPrice.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue;
+    })
+
+    return f
 
 }
 const discountedPrice = calculate({
