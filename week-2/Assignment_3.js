@@ -1,6 +1,5 @@
 function calculate(data) {
     // your code here
-    let eachPrice = []
     let result = 0
 
     const { discount, products } = data;
@@ -8,7 +7,6 @@ function calculate(data) {
     for (let index = 0; index < products.length; index++) {
 
         let itemPrices = products[index].price * (1 - discount)
-        eachPrice.push(itemPrices)
         result += itemPrices
 
 
