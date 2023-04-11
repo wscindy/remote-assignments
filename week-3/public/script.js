@@ -8,10 +8,6 @@ function loadDoc01() {
 
 function loadDoc() {
 
-
-    var xhr = new XMLHttpRequest()
-
-
     num = document.getElementById('input').value
 
     fetch('http://localhost:3000/getData?number=' + num, {})

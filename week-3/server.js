@@ -15,10 +15,6 @@ app.get('/', (req, res) => {
 })
 
 
-// app.post(__dirname + '/public', (req, res) => {
-//     res.send('thanks for clicking')
-// })
-
 app.get('/getData', (req, res) => {
     let result;
     let num = req.query.number
