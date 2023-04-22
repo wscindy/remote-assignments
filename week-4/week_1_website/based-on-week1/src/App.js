@@ -4,7 +4,11 @@ import WelcomeMsg from './WelcomMsg';
 import ContentBox from './ContentBox';
 import CallToAction from './CallToAction';
 
+
+
 function App() {
+
+
   return (
     <div className="App">
       <NavBar />

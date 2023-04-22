@@ -5,6 +5,34 @@
   margin-right: 0;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  position: fixed;
+  background-color: #FFB4B4;
+  width: 40%;
+  height: 100%;
+  margin-top: 0;
+  color: white;
+
+  /* display: none; */
+}
+
+.sidebar p {
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+}
+
+.sidebar closebtn {
+  right: 0;
+  position: fixed;
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #B2A4FF;
