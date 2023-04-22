@@ -22,37 +22,25 @@ app.get('/getData', (req, res) => {
 
     if (num === undefined) {
         result = 'Lack of Parameter'
-        
-    }else if (numCheck === false) {
+
+    } else if (numCheck === false) {
         result = "You didn't give me any number."
     }
     else if (isNaN(num)) {
 
         result = 'Wrong Parameter'
-        console.log(typeof(req))
+        console.log(typeof (req))
 
     }
     else {
-
         var i = num;
         var arr = [];
-        var text = '';
         while (i > 0) {
-            text = i;
-            arr.push(text)
+            arr.push(i);
             i--;
         }
-        var r2 = arr.sort((a, b) => {
-            if (a < b) {
-                return -1
-            } else if (a > b) {
-                return 1
-            } else {
-                return 0
-            }
-        })
-        var r = arr.join('+')
-        result = r;
+        var sum = arr.reduce((acc, val) => Number(acc) + Number(val), 0);
+        result = sum;
     }
     res.send(`${result}`)
     console.log(JSON.stringify(result))
