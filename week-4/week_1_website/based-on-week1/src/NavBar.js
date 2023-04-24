@@ -6,8 +6,13 @@ import './App.css';
 function NavBar() {
     const [toggle, setToggle] = useState(false)
 
+
+
     return (
         <div>
+            {toggle && (
+                <SideBar />
+            )}
             <div class="topnav" id="miniSize">
                 <span>Welcome to My page</span>
                 <a id="home" class="active" href="#home">Home</a>
@@ -21,9 +26,7 @@ function NavBar() {
                 </div>
 
             </div>
-            {toggle && (
-                <SideBar />
-            )}
+
 
         </div>
     );
