@@ -6,13 +6,13 @@ import CallToAction from './CallToAction';
 
 
 
-function App() {
 
+function App() {
 
   return (
     <div className="App">
       <NavBar />
-      <WelcomeMsg name="Welcome Message ☺️ Week 4" section="Section Title" />
+      <WelcomeMsg section="Section Title" />
       <ContentBox boxName="Content Box 1" boxNameTwo="Content Box 2" />
       <ContentBox boxName="Content Box 3" boxNameTwo="Content Box 4" />
       <CallToAction btnName="Call to Action" />
