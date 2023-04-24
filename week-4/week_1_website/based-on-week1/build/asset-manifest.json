@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/css/main.726b6d44.css",
+    "main.js": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/js/main.1e981331.js",
+    "static/js/787.b052cec1.chunk.js": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/js/787.b052cec1.chunk.js",
+    "index.html": "/remote-assignments/week-4/week_1_website/based-on-week1/public/index.html",
+    "main.726b6d44.css.map": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/css/main.726b6d44.css.map",
+    "main.1e981331.js.map": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/js/main.1e981331.js.map",
+    "787.b052cec1.chunk.js.map": "/remote-assignments/week-4/week_1_website/based-on-week1/public/static/js/787.b052cec1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.726b6d44.css",
+    "static/js/main.1e981331.js"
+  ]
+}
