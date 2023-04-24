@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/css/main.726b6d44.css",
+    "main.js": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/js/main.d838ab84.js",
+    "static/js/787.b052cec1.chunk.js": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/js/787.b052cec1.chunk.js",
+    "index.html": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/index.html",
+    "main.726b6d44.css.map": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/css/main.726b6d44.css.map",
+    "main.d838ab84.js.map": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/js/main.d838ab84.js.map",
+    "787.b052cec1.chunk.js.map": "//wscindy.github.io/remote-assignments/week-4/week_1_website/based-on-week1/static/js/787.b052cec1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.726b6d44.css",
+    "static/js/main.d838ab84.js"
+  ]
+}
